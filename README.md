@@ -4,6 +4,11 @@
 
 ### This challenge is to update an existing budget tracker to allow for offline access and functionality
 
+Three files were added to this project:
+- public/js/idb.js - Read and write from indexedDB when internet connection is lost
+- public/server-worker.js - Installs a service worker to locally cache all html, css, js & png files
+- public/manifest.json - All information need to make this installable as a Progressive Web App (PWA)
+
 ### **User Story**
 
     AS AN avid traveler
@@ -28,12 +33,12 @@
 
 ### **Challenge 19 - screenshots**
 
-<!--
 <img src="./screenshot-1.png" style="width: 50%; height=auto;">
--->
+
+<img src="./screenshot-2.png" style="width: 50%; height=auto;">
+
+<img src="./screenshot-3.png" style="width: 50%; height=auto;">
 
 ### **Challenge 19 - link to deployed app
 
-<!--
 <https://serene-island-55401.herokuapp.com/>
--->
