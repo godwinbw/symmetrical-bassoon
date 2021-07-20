@@ -137,6 +137,7 @@ function sendTransaction(isAdding) {
   .catch(err => {
     // fetch failed, so save in indexed db
     saveRecord(transaction);
+    alert("This transaction has been saved while you are offline.  It will be automatically uploaded when you are back online");
 
     // clear form
     nameEl.value = "";
